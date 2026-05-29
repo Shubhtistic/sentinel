@@ -1,0 +1,17 @@
+# env variables
+.env
+
+# python env
+.venv/
+
+
+
+#ruff related info
+.ruff_cache
+.ruff_cache/
+
+# Python Junk (Generated automatically)
+__pycache__/
+*.pyc
+venv/
+.venv/
