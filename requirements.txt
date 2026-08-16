@@ -7,4 +7,4 @@ asyncpg>=0.29
 redis>=5.0
 uuid-utils>=0.10
 celery[redis]>=5.3
-redbeat>=0.13
+celery-redbeat @ git+https://github.com/sibson/redbeat.git@v2.4.2
