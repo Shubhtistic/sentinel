@@ -1,6 +1,6 @@
 from redis.asyncio import Redis
 
-from src.shared.config import settings
+from sentinel.shared.config import settings
 
 redis_client: Redis = Redis.from_url(settings.REDIS_URL, decode_responses=True)
 
